@@ -7,3 +7,4 @@ wget https://github.com/openshift/origin/releases/download/v3.6.0/openshift-orig
 untar and cd into dir
 
 sudo cp oc /usr/local/bin/
+ oc cluster up --routing-suffix=54.174.253.180.nip.io --public-hostname=ec2-54-174-253-180.compute-1.amazonaws.com
